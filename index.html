@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="يزيد الملق، تطوير واجهات، برمجة، GitHub، React، مشاريع، Gaza">
+    <meta name="description" content="موقع شخصي للمطور يزيد الملق، يضم مهاراتي، مشاريع سابقة، وروابط تواصل.">
+    <title>يزيد الملق</title>
+    <link rel="icon" href="public/2-picOfMe.jpg"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="S-css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <a href="/">Yazeed Almalaq</a>
+        <nav>
+            <a target="_blank" href="https://github.com/yazeed990"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/yazeed-almalaq-783435350/"><i class="fa-brands fa-linkedin"></i></a>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <div class="intro-header">
+                <h1>السلام!...يزيد الملق</h1>
+                <p>مطور واجهات أمامية (Front-End Developer)</p>
+            </div>
+            <h5 class="intro-description">
+                طالب علوم حاسب في جامعة حائل، مبرمج ومصمم واجهات أمامية. محب للقراءة، وممارس لرياضة المشي، وشغوف بتعلم التقنيات الحديثة.
+                </h5>
+            <div class="links-container">
+                <i class="fa-solid link-arrow fa-arrow-right"></i>
+                <a href="mailto:btmk.fm@gmail.com">راسلني عبر الإيميل</a>
+                <a target="_blank" href="https://github.com/yazeed990">GitHub</a>
+                <a target="_blank" href="https://www.linkedin.com/in/yazeed-almalaq-783435350/">linkedin</a>
+            </div>
+
+            <div id="play-game">
+                <button onclick="playGame()">طفشان؟ اضغط هنا!</button>
+            </div>
+            <div style="display: none;" class="color-div">
+                <h4>أختار لون:</h4>
+                <p style="display: none;">خل الطفش ينفعك!</p>
+                <input type="color" id="color-picker" onchange="changeColor()" value="#0084ff"/>
+                <button style="display: none;" onclick="resetColor()">رجعه!</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>مهارات</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>مجالات</th>
+                        <th>تقنيات</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>React | NextJs</td>
+                    </tr>
+                    <tr>
+                        <td>أنجليزي</td>
+                        <td>أستماع | قراءة | كتابة | تحدث</td>
+                    </tr>
+                    <tr>
+                        <td>تصميم مواقع</td>
+                        <td>HTML | CSS | Git </td>
+                    </tr>
+                    <tr>
+                        <td>تصميم</td>
+                        <td>Figma | Canva</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section>
+            <h2>أخر المشاريع</h2>
+            <div class="card-grid">
+                <div class="project-card">
+                    <div>
+                        <p>٦ أبريل ٢٠٢٥ ​​</p>
+                        
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>HTML & CSS</p>
+                                
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>JavaScript</p>
+
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>Vite</p>
+                            </div>
+                        </div>
+                            <p>موقع تبرعات لأخوننا في غزةز متجاوبة وتصميم عصري، مناسب لأي جهاز</p>
+                        
+                        <div class="project-links">
+                            <a target="_blank" href="https://gaza-donation.netlify.app/">Live</a>
+                            <a target="_blank" href="https://github.com/yazeed990/Gaza">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="img-div">
+                        <img class="big-img"
+                             src="public/donation-website.png"
+                             alt="project-1"/>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div>
+                        <p>٢٠ أبريل ٢٠٢٥</p>                        
+
+                        
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>React</p>
+                                
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>Node.Js</p>
+
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>JavaScript</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>Json</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>HTML & CSS</p>
+                            </div>
+                        </div>
+                        <p><b>وردي</b>: تطبيق بسيط لحساب ومتابعة الورد اليومي، بواجهة متجاوبة وسهلة الاستخدام.</p>
+                        
+                        <div class="project-links">
+                            <a target="_blank" href="https://wirdy.netlify.app/">Live</a>
+                            <a target="_blank" href="https://github.com/yazeed990/Wirdy">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="img-div">
+                        <img class="big-img"
+                             src="public/Wirdy-webapp.png"
+                             alt="project-1"/>
+                    </div>
+                </div>
+                
+                   
+
+                
+
+                
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="public/Yazeed-H-Almalaq.pdf" download class="cv-button">
+            <i class="fa-solid fa-file-arrow-down"></i> حمّل سيرتي الذاتية
+        </a>
+        
+
+        <p>تصميم:  <a href="mailto:btmk.fm@gmail.com" target="_blank">يزيد الملق</a> ⭐ ال"repo" موجود على  <a target ="_blank" href="https://github.com/yazeed990">GitHub</a></p>
+
+    </footer>
+    <script src="main.js">
+    </script>
+</body>
+</html>
